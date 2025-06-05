@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Mobile Development",
+    "skills": [
+      "Flutter (Dependency Injection, BLoC, MVVM)",
+      "Dart",
+      "Firebase"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "skills": [
+      "React",
+      "Vue.js",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "category": "Architecture & Tools",
+    "skills": [
+      "Clean Architecture",
+      "OOP",
+      "Git",
+      "Hive",
+      "RESTful API"
+    ]
+  }
+]

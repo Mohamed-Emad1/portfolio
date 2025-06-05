@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Deepfake Audio Detection",
+    "description": "A Flutter-based mobile app that detects deepfake audio using on-device ML. Features clean architecture, DI, and localization.",
+    "technologies": ["Flutter", "Dart", "TensorFlow Lite", "get_it", "Bloc", "Localization"],
+    "imageURL": "images/projects/deepfake-app.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/deepfake-audio-detection",
+    "demoURL": "https://mohamedemad.dev/demo/deepfake-app"
+  },
+  {
+    "title": "Muslim App",
+    "description": "A mobile application providing prayer times, Quran reading, and Hadith integration.",
+    "technologies": ["Flutter", "RESTful APIs", "Localization"],
+    "imageURL": "images/projects/muslim-app.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/muslim-app",
+    "demoURL": "https://mohamedemad.dev/demo/muslim-app"
+  },
+  {
+    "title": "ChatBot App",
+    "description": "An AI-driven to-do list application with Firebase authentication and local persistence.",
+    "technologies": ["Flutter", "Firebase", "Hive", "REST API"],
+    "imageURL": "images/projects/chatbot-app.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/chatbot-app",
+    "demoURL": "https://mohamedemad.dev/demo/chatbot-app"
+  },
+  {
+    "title": "E-commerce App",
+    "description": "A fruits marketplace application featuring product listings, cart functionality, and user profiles.",
+    "technologies": ["Flutter", "Firebase Firestore", "Firebase Auth"],
+    "imageURL": "images/projects/ecommerce-app.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/ecommerce-app",
+    "demoURL": "https://mohamedemad.dev/demo/ecommerce-app"
+  },
+  {
+    "title": "Quora Copy",
+    "description": "A responsive Q&A platform built with Vue.js, featuring question posting, answer upvoting, and user profiles.",
+    "technologies": ["Vue.js", "Vuex", "Firebase Authentication"],
+    "imageURL": "images/projects/quora-copy.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/quora-copy-vuejs",
+    "demoURL": "https://mohamedemad.dev/demo/quora-copy"
+  }
+]
