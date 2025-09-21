@@ -1,42 +1,62 @@
 [
   {
-    "title": "Deepfake Audio Detection",
-    "description": "A Flutter-based mobile app that detects deepfake audio using on-device ML. Features clean architecture, DI, and localization.",
-    "technologies": ["Flutter", "Dart", "TensorFlow Lite", "get_it", "Bloc", "Localization"],
-    "imageURL": "images/projects/deepfake-app.png",
-    "githubURL": "https://github.com/Mohamed-Emad1/deepfake-audio-detection",
-    "demoURL": "https://mohamedemad.dev/demo/deepfake-app"
+    "title": "Deepfake Audio Detection System",
+    "description": "Graduation Project - Built Flutter mobile app and React web app for deepfake audio detection using Clean Architecture and Dependency Injection. Implemented speech-to-speech functionality with file upload/record and integrated ML models via REST APIs.",
+    "technologies": ["Flutter", "React", "REST API", "Clean Architecture", "Dependency Injection", "ML Models"],
+    "category": "fullstack",
+    "featured": true,
+    "year": "2024-2025",
+    "status": "Graduation Project",
+    "imageURL": "./assets/images/projects/deepfake.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/Graduation-Project-CCE-2025",
+    "demoURL": "https://www.youtube.com/shorts/LcdZMa1CoHo"
   },
   {
-    "title": "Muslim App",
-    "description": "A mobile application providing prayer times, Quran reading, and Hadith integration.",
-    "technologies": ["Flutter", "RESTful APIs", "Localization"],
-    "imageURL": "images/projects/muslim-app.png",
-    "githubURL": "https://github.com/Mohamed-Emad1/muslim-app",
-    "demoURL": "https://mohamedemad.dev/demo/muslim-app"
+    "title": "Muslim Prayer App",
+    "description": "Comprehensive Islamic app with Quran reading, Hadith collection, and real-time prayer times. Features multi-language support and integrates multiple REST APIs for accurate Islamic content and prayer timings.",
+    "technologies": ["Flutter", "REST APIs", "Multi-language Support", "Real-time Data"],
+    "category": "flutter",
+    "featured": true,
+    "year": "2024",
+    "status": "Completed",
+    "imageURL": "./assets/images/projects/muslim.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/muslim_app",
+    "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_muslimapp-cleanarchitecture-dependencyinjection-activity-7256699622264369153-g6sp"
   },
   {
-    "title": "ChatBot App",
-    "description": "An AI-driven to-do list application with Firebase authentication and local persistence.",
-    "technologies": ["Flutter", "Firebase", "Hive", "REST API"],
-    "imageURL": "images/projects/chatbot-app.png",
-    "githubURL": "https://github.com/Mohamed-Emad1/chatbot-app",
-    "demoURL": "https://mohamedemad.dev/demo/chatbot-app"
+    "title": "Chatbot App",
+    "description": "AI-powered chatbot application built with Flutter and Firebase Authentication. Implements Clean Architecture pattern with REST API integration for intelligent conversation capabilities.",
+    "technologies": ["Flutter", "Firebase Auth", "REST API", "Clean Architecture", "AI Integration"],
+    "category": "flutter",
+    "featured": true,
+    "year": "2024",
+    "status": "Completed",
+    "imageURL": "./assets/images/projects/chatbot.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/chatbot",
+    "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-firebase-hive-activity-7309665655895547904-3D4e"
   },
   {
-    "title": "E-commerce App",
-    "description": "A fruits marketplace application featuring product listings, cart functionality, and user profiles.",
-    "technologies": ["Flutter", "Firebase Firestore", "Firebase Auth"],
-    "imageURL": "images/projects/ecommerce-app.png",
-    "githubURL": "https://github.com/Mohamed-Emad1/ecommerce-app",
-    "demoURL": "https://mohamedemad.dev/demo/ecommerce-app"
+    "title": "Haram Filter App",
+    "description": "Currently developing an ML-based Flutter application for filtering inappropriate images and videos. Features secure Firebase authentication and advanced machine learning algorithms for content moderation.",
+    "technologies": ["Flutter", "Firebase", "Machine Learning", "Content Filtering", "Image Processing"],
+    "category": "flutter",
+    "featured": false,
+    "year": "2025",
+    "status": "In Development",
+    "imageURL": "./assets/images/projects/haram.jpeg",
+    "githubURL": "https://github.com/Mohamed-Emad1/haram-filter-app",
+    "demoURL": "#"
   },
   {
-    "title": "Quora Copy",
-    "description": "A responsive Q&A platform built with Vue.js, featuring question posting, answer upvoting, and user profiles.",
-    "technologies": ["Vue.js", "Vuex", "Firebase Authentication"],
-    "imageURL": "images/projects/quora-copy.png",
-    "githubURL": "https://github.com/Mohamed-Emad1/quora-copy-vuejs",
-    "demoURL": "https://mohamedemad.dev/demo/quora-copy"
+    "title": "Google Gemini API Competition Project",
+    "description": "Participated in Google Gemini API competition, contributing to frontend UI/UX development and building interactive user workflows. Focused on creating intuitive interfaces for AI-powered applications.",
+    "technologies": ["Flutter", "Google Gemini API", "UI/UX Design", "Frontend Development"],
+    "category": "flutter",
+    "featured": false,
+    "year": "2025",
+    "status": "Competition Entry",
+    "imageURL": "images/projects/placeholder.jpg",
+    "githubURL": "https://github.com/Mohamed-Emad1/gemini-api-project",
+    "demoURL": "https://www.youtube.com/watch?v=oT_zBG3CBhU&t=5s"
   }
 ]

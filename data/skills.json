@@ -1,30 +1,81 @@
 [
   {
+    "category": "Programming Languages",
+    "icon": "fas fa-code",
+    "skills": [
+      {"name": "Dart", "level": 90},
+      {"name": "JavaScript", "level": 80},
+      {"name": "HTML", "level": 85},
+      {"name": "CSS", "level": 85}
+    ]
+  },
+  {
     "category": "Mobile Development",
+    "icon": "fas fa-mobile-alt",
     "skills": [
-      "Flutter (Dependency Injection, BLoC, MVVM)",
-      "Dart",
-      "Firebase"
+      {"name": "Flutter", "level": 95},
+      {"name": "Cross-Platform Development", "level": 90},
+      {"name": "Responsive Design", "level": 85}
     ]
   },
   {
-    "category": "Web Development",
+    "category": "Architecture & Patterns",
+    "icon": "fas fa-layer-group",
     "skills": [
-      "React",
-      "Vue.js",
-      "HTML",
-      "CSS",
-      "JavaScript"
+      {"name": "Clean Architecture", "level": 90},
+      {"name": "BLoC Pattern", "level": 85},
+      {"name": "MVVM", "level": 80},
+      {"name": "OOP", "level": 90},
+      {"name": "Dependency Injection", "level": 85}
     ]
   },
   {
-    "category": "Architecture & Tools",
+    "category": "Backend & APIs",
+    "icon": "fas fa-server",
     "skills": [
-      "Clean Architecture",
-      "OOP",
-      "Git",
-      "Hive",
-      "RESTful API"
+      {"name": "Firebase (Firestore, Auth)", "level": 85},
+      {"name": "RESTful APIs", "level": 90},
+      {"name": "JSON", "level": 95}
+    ]
+  },
+  {
+    "category": "Databases",
+    "icon": "fas fa-database",
+    "skills": [
+      {"name": "Hive", "level": 80},
+      {"name": "Firebase Firestore", "level": 85},
+      {"name": "Shared Preferences", "level": 90}
+    ]
+  },
+  {
+    "category": "Development Tools",
+    "icon": "fas fa-tools",
+    "skills": [
+      {"name": "Git", "level": 85},
+      {"name": "GitHub", "level": 90},
+      {"name": "Android Studio", "level": 85},
+      {"name": "VS Code", "level": 90},
+      {"name": "Localization", "level": 80},
+      {"name": "Version Control", "level": 85}
+    ]
+  },
+  {
+    "category": "Soft Skills",
+    "icon": "fas fa-users",
+    "skills": [
+      {"name": "Collaboration & Teamwork", "level": 90},
+      {"name": "Problem-Solving", "level": 95},
+      {"name": "Communication", "level": 85},
+      {"name": "Time Management", "level": 90},
+      {"name": "Work Under Pressure", "level": 85}
+    ]
+  },
+  {
+    "category": "Languages",
+    "icon": "fas fa-globe",
+    "skills": [
+      {"name": "Arabic (Native)", "level": 100},
+      {"name": "English (Advanced)", "level": 85}
     ]
   }
 ]
