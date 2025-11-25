@@ -7,9 +7,21 @@
     "featured": true,
     "year": "2024-2025",
     "status": "Graduation Project",
-    "imageURL": "./assets/images/projects/deepfake.png",
+    "imageURL": "assets/images/projects/deepfake1.png",
     "githubURL": "https://github.com/Mohamed-Emad1/Graduation-Project-CCE-2025",
-    "demoURL": "https://www.youtube.com/shorts/LcdZMa1CoHo"
+    "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-graduationproject-mobiledevelopment-activity-7344856791664459777-aE7n"
+  },
+  {
+    "title": "Kshk (E-commerce App)",
+    "description": "A comprehensive e-commerce mobile application built with Flutter. Features product browsing, cart management, and secure checkout process.",
+    "technologies": ["Flutter", "Mobile Development", "E-commerce"],
+    "category": "flutter",
+    "featured": true,
+    "year": "2024",
+    "status": "Completed",
+    "imageURL": "assets/images/projects/kshk.png",
+    "githubURL": "https://github.com/Mohamed-Emad1/e-commerce-app",
+    "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-mobiledevelopment-ecommerce-activity-7385604556665270272-tIO7"
   },
   {
     "title": "Muslim Prayer App",
@@ -19,7 +31,7 @@
     "featured": true,
     "year": "2024",
     "status": "Completed",
-    "imageURL": "./assets/images/projects/muslim.png",
+    "imageURL": "assets/images/projects/muslim1.webp",
     "githubURL": "https://github.com/Mohamed-Emad1/muslim_app",
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_muslimapp-cleanarchitecture-dependencyinjection-activity-7256699622264369153-g6sp"
   },
@@ -31,7 +43,7 @@
     "featured": true,
     "year": "2024",
     "status": "Completed",
-    "imageURL": "./assets/images/projects/chatbot.png",
+    "imageURL": "assets/images/projects/chatbot1.webp",
     "githubURL": "https://github.com/Mohamed-Emad1/chatbot",
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-firebase-hive-activity-7309665655895547904-3D4e"
   },
@@ -43,7 +55,7 @@
     "featured": false,
     "year": "2025",
     "status": "In Development",
-    "imageURL": "./assets/images/projects/haram.jpeg",
+    "imageURL": "assets/images/projects/haram.jpeg",
     "githubURL": "https://github.com/Mohamed-Emad1/haram-filter-app",
     "demoURL": "#"
   },
@@ -55,7 +67,7 @@
     "featured": false,
     "year": "2025",
     "status": "Competition Entry",
-    "imageURL": "images/projects/placeholder.jpg",
+    "imageURL": "assets/images/projects/placeholder.jpg",
     "githubURL": "https://github.com/Mohamed-Emad1/gemini-api-project",
     "demoURL": "https://www.youtube.com/watch?v=oT_zBG3CBhU&t=5s"
   }

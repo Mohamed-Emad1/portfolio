@@ -262,7 +262,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../images/hero-bg.jpg") center/cover no-repeat;
+  background: url("../assets/images/hero-bg.jpg") center/cover no-repeat;
 }
 
 .hero-overlay {
@@ -822,7 +822,6 @@ a {
   box-shadow: var(--shadow-xl);
   transition: all 0.3s ease;
   width: 76%;
-
 }
 
 .image-wrapper:hover {
@@ -1159,7 +1158,11 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, rgba(124, 58, 237, 0.9), rgba(168, 85, 247, 0.8));
+  background: linear-gradient(
+    45deg,
+    rgba(124, 58, 237, 0.9),
+    rgba(168, 85, 247, 0.8)
+  );
   display: flex;
   align-items: center;
   justify-content: center;
