@@ -175,6 +175,22 @@ class PortfolioManager {
       card.style.opacity = "0";
       card.style.transform = "scale(0.8) translateY(20px)";
 
+      // Add click event for lightbox
+      const projectImageContainer = card.querySelector(
+        ".project-image-container"
+      );
+      projectImageContainer.style.cursor = "pointer";
+      projectImageContainer.addEventListener("click", () => {
+        const projectTitle = card.querySelector(".project-title").textContent;
+        const project = this.projects.find((p) => p.title === projectTitle);
+        if (project && project.images) {
+          window.lightbox.open(project.images);
+        } else if (project) {
+          // Fallback if images array doesn't exist yet
+          window.lightbox.open([project.imageURL]);
+        }
+      });
+
       setTimeout(() => {
         card.style.transition =
           "all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)";
@@ -187,5 +203,6 @@ class PortfolioManager {
 
 // Initialize portfolio manager when DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
+  window.lightbox = new Lightbox();
   new PortfolioManager();
 });

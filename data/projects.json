@@ -3,11 +3,17 @@
     "title": "Deepfake Audio Detection System",
     "description": "Graduation Project - Built Flutter mobile app and React web app for deepfake audio detection using Clean Architecture and Dependency Injection. Implemented speech-to-speech functionality with file upload/record and integrated ML models via REST APIs.",
     "technologies": ["Flutter", "React", "REST API", "Clean Architecture", "Dependency Injection", "ML Models"],
-    "category": "fullstack",
+    "categories": ["fullstack", "flutter"],
     "featured": true,
     "year": "2024-2025",
     "status": "Graduation Project",
     "imageURL": "assets/images/projects/deepfake1.png",
+    "images": [
+      "assets/images/projects/deepfake1.png",
+      "assets/images/projects/deepfake2.png",
+      "assets/images/projects/deepfake3.png",
+      "assets/images/projects/deepfake4.png"
+    ],
     "githubURL": "https://github.com/Mohamed-Emad1/Graduation-Project-CCE-2025",
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-graduationproject-mobiledevelopment-activity-7344856791664459777-aE7n"
   },
@@ -20,6 +26,9 @@
     "year": "2024",
     "status": "Completed",
     "imageURL": "assets/images/projects/kshk.png",
+    "images": [
+      "assets/images/projects/kshk.png"
+    ],
     "githubURL": "https://github.com/Mohamed-Emad1/e-commerce-app",
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-mobiledevelopment-ecommerce-activity-7385604556665270272-tIO7"
   },
@@ -32,6 +41,10 @@
     "year": "2024",
     "status": "Completed",
     "imageURL": "assets/images/projects/muslim1.webp",
+    "images": [
+      "assets/images/projects/muslim1.webp",
+      "assets/images/projects/muslim2.webp"
+    ],
     "githubURL": "https://github.com/Mohamed-Emad1/muslim_app",
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_muslimapp-cleanarchitecture-dependencyinjection-activity-7256699622264369153-g6sp"
   },
@@ -44,6 +57,10 @@
     "year": "2024",
     "status": "Completed",
     "imageURL": "assets/images/projects/chatbot1.webp",
+    "images": [
+      "assets/images/projects/chatbot1.webp",
+      "assets/images/projects/chatbot2.webp"
+    ],
     "githubURL": "https://github.com/Mohamed-Emad1/chatbot",
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-firebase-hive-activity-7309665655895547904-3D4e"
   },
@@ -56,6 +73,9 @@
     "year": "2025",
     "status": "In Development",
     "imageURL": "assets/images/projects/haram.jpeg",
+    "images": [
+      "assets/images/projects/haram.jpeg"
+    ],
     "githubURL": "https://github.com/Mohamed-Emad1/haram-filter-app",
     "demoURL": "#"
   },
@@ -68,6 +88,9 @@
     "year": "2025",
     "status": "Competition Entry",
     "imageURL": "assets/images/projects/placeholder.jpg",
+    "images": [
+      "assets/images/projects/placeholder.jpg"
+    ],
     "githubURL": "https://github.com/Mohamed-Emad1/gemini-api-project",
     "demoURL": "https://www.youtube.com/watch?v=oT_zBG3CBhU&t=5s"
   }
