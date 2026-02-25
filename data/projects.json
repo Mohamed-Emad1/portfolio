@@ -2,7 +2,14 @@
   {
     "title": "Deepfake Audio Detection System",
     "description": "Graduation Project - Built Flutter mobile app and React web app for deepfake audio detection using Clean Architecture and Dependency Injection. Implemented speech-to-speech functionality with file upload/record and integrated ML models via REST APIs.",
-    "technologies": ["Flutter", "React", "REST API", "Clean Architecture", "Dependency Injection", "ML Models"],
+    "technologies": [
+      "Flutter",
+      "React",
+      "REST API",
+      "Clean Architecture",
+      "Dependency Injection",
+      "ML Models"
+    ],
     "categories": ["fullstack", "flutter"],
     "featured": true,
     "year": "2024-2025",
@@ -26,16 +33,19 @@
     "year": "2024",
     "status": "Completed",
     "imageURL": "assets/images/projects/kshk.png",
-    "images": [
-      "assets/images/projects/kshk.png"
-    ],
+    "images": ["assets/images/projects/kshk.png"],
     "githubURL": "https://github.com/Mohamed-Emad1/e-commerce-app",
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-mobiledevelopment-ecommerce-activity-7385604556665270272-tIO7"
   },
   {
     "title": "Muslim Prayer App",
     "description": "Comprehensive Islamic app with Quran reading, Hadith collection, and real-time prayer times. Features multi-language support and integrates multiple REST APIs for accurate Islamic content and prayer timings.",
-    "technologies": ["Flutter", "REST APIs", "Multi-language Support", "Real-time Data"],
+    "technologies": [
+      "Flutter",
+      "REST APIs",
+      "Multi-language Support",
+      "Real-time Data"
+    ],
     "category": "flutter",
     "featured": true,
     "year": "2024",
@@ -51,7 +61,13 @@
   {
     "title": "Chatbot App",
     "description": "AI-powered chatbot application built with Flutter and Firebase Authentication. Implements Clean Architecture pattern with REST API integration for intelligent conversation capabilities.",
-    "technologies": ["Flutter", "Firebase Auth", "REST API", "Clean Architecture", "AI Integration"],
+    "technologies": [
+      "Flutter",
+      "Firebase Auth",
+      "REST API",
+      "Clean Architecture",
+      "AI Integration"
+    ],
     "category": "flutter",
     "featured": true,
     "year": "2024",
@@ -67,31 +83,68 @@
   {
     "title": "Haram Filter App",
     "description": "Currently developing an ML-based Flutter application for filtering inappropriate images and videos. Features secure Firebase authentication and advanced machine learning algorithms for content moderation.",
-    "technologies": ["Flutter", "Firebase", "Machine Learning", "Content Filtering", "Image Processing"],
+    "technologies": [
+      "Flutter",
+      "Firebase",
+      "Machine Learning",
+      "Content Filtering",
+      "Image Processing"
+    ],
     "category": "flutter",
     "featured": false,
     "year": "2025",
     "status": "In Development",
     "imageURL": "assets/images/projects/haram.jpeg",
-    "images": [
-      "assets/images/projects/haram.jpeg"
-    ],
+    "images": ["assets/images/projects/haram.jpeg"],
     "githubURL": "https://github.com/Mohamed-Emad1/haram-filter-app",
     "demoURL": "#"
   },
   {
     "title": "Google Gemini API Competition Project",
     "description": "Participated in Google Gemini API competition, contributing to frontend UI/UX development and building interactive user workflows. Focused on creating intuitive interfaces for AI-powered applications.",
-    "technologies": ["Flutter", "Google Gemini API", "UI/UX Design", "Frontend Development"],
+    "technologies": [
+      "Flutter",
+      "Google Gemini API",
+      "UI/UX Design",
+      "Frontend Development"
+    ],
     "category": "flutter",
     "featured": false,
     "year": "2025",
     "status": "Competition Entry",
     "imageURL": "assets/images/projects/placeholder.jpg",
-    "images": [
-      "assets/images/projects/placeholder.jpg"
-    ],
+    "images": ["assets/images/projects/placeholder.jpg"],
     "githubURL": "https://github.com/Mohamed-Emad1/gemini-api-project",
     "demoURL": "https://www.youtube.com/watch?v=oT_zBG3CBhU&t=5s"
+  },
+  {
+    "title": "Osus Project",
+    "description": "A comprehensive Flutter application featuring product categories, dynamic order cards, user reviews, address management, and dynamic navigation.",
+    "technologies": [
+      "Flutter",
+      "Mobile Development",
+      "REST API",
+      "State Management"
+    ],
+    "category": "flutter",
+    "featured": true,
+    "year": "2025",
+    "status": "Completed",
+    "imageURL": "assets/images/projects/osus1.png",
+    "images": [
+      "assets/images/projects/osus1.png",
+      "assets/images/projects/osus2.png",
+      "assets/images/projects/osus3.png",
+      "assets/images/projects/osus4.png",
+      "assets/images/projects/osus5.png",
+      "assets/images/projects/sus6.png",
+      "assets/images/projects/osus7.png",
+      "assets/images/projects/osus8.png",
+      "assets/images/projects/osus9.png",
+      "assets/images/projects/osus10.png",
+      "assets/images/projects/osus11.png"
+    ],
+    "githubURL": "#",
+    "demoURL": "#"
   }
 ]

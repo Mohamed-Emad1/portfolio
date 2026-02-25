@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -61,7 +61,13 @@
             <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
-        <div class="nav-toggle" id="nav-toggle">
+        <div
+          class="nav-toggle"
+          id="nav-toggle"
+          role="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -82,7 +88,7 @@
       </div>
       <div class="hero-container">
         <div class="hero-content" data-aos="fade-up">
-          <h1 style="margin-top: 70px" class="hero-title">
+          <h1 class="hero-title">
             Hi, I'm <span class="gradient-text">Mohamed Emad</span>
           </h1>
           <p class="hero-subtitle">Software Engineer — Flutter Developer</p>
@@ -118,10 +124,7 @@
               <span class="stat-number">1</span>
               <span class="stat-label">Years Experience</span>
             </div>
-            <!-- <div class="stat-item">
-              <span class="stat-number">15+</span>
-              <span class="stat-label">Technologies</span>
-            </div> -->
+
             <div class="stat-item">
               <span class="stat-number">4</span>
               <span class="stat-label">Certifications</span>
@@ -148,6 +151,7 @@
               href="https://github.com/Mohamed-Emad1"
               target="_blank"
               class="social-link"
+              aria-label="GitHub Profile"
             >
               <i class="fab fa-github"></i>
             </a>
@@ -155,10 +159,15 @@
               href="https://linkedin.com/in/mohamed-emad-b048b4194/"
               target="_blank"
               class="social-link"
+              aria-label="LinkedIn Profile"
             >
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="mailto:mohamed.emad45621@gmail.com" class="social-link">
+            <a
+              href="mailto:mohamed.emad45621@gmail.com"
+              class="social-link"
+              aria-label="Send Email"
+            >
               <i class="fas fa-envelope"></i>
             </a>
           </div>
@@ -424,12 +433,14 @@
                   <h3>Oracle ERP Consultant</h3>
                   <h4>Ejada Systems</h4>
                   <p>
-                    Working as an Oracle ERP Consultant, contributing to
-                    enterprise resource planning solutions.
+                    Working on the Redwood Enjaz project, responsible for the
+                    migration of pages, converting them to Redwood, and
+                    configuring them.
                   </p>
                   <div class="timeline-achievements">
                     <span class="achievement">Oracle ERP</span>
-                    <span class="achievement">Consultancy</span>
+                    <span class="achievement">Redwood Migration</span>
+                    <span class="achievement">Page Configuration</span>
                   </div>
                 </div>
               </div>
@@ -615,6 +626,7 @@
                 <div class="form-group">
                   <input
                     type="text"
+                    id="name"
                     name="name"
                     placeholder="Your Name"
                     required
@@ -623,16 +635,23 @@
                 <div class="form-group">
                   <input
                     type="email"
+                    id="email"
                     name="email"
                     placeholder="Your Email"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <input type="text" name="subject" placeholder="Subject" />
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                  />
                 </div>
                 <div class="form-group">
                   <textarea
+                    id="message"
                     name="message"
                     placeholder="Your Message"
                     rows="6"
