@@ -25,6 +25,36 @@
     "demoURL": "https://www.linkedin.com/posts/mohamed-emad-b048b4194_flutter-graduationproject-mobiledevelopment-activity-7344856791664459777-aE7n"
   },
   {
+    "title": "Osus Project",
+    "description": "A comprehensive Flutter application featuring product categories, dynamic order cards, user reviews, address management, and dynamic navigation.",
+    "technologies": [
+      "Flutter",
+      "Mobile Development",
+      "REST API",
+      "State Management"
+    ],
+    "category": "flutter",
+    "featured": true,
+    "year": "2025",
+    "status": "In Development",
+    "imageURL": "assets/images/projects/osus1.png",
+    "images": [
+      "assets/images/projects/osus1.png",
+      "assets/images/projects/osus2.png",
+      "assets/images/projects/osus3.png",
+      "assets/images/projects/osus4.png",
+      "assets/images/projects/osus5.png",
+      "assets/images/projects/sus6.png",
+      "assets/images/projects/osus7.png",
+      "assets/images/projects/osus8.png",
+      "assets/images/projects/osus9.png",
+      "assets/images/projects/osus10.png",
+      "assets/images/projects/osus11.png"
+    ],
+    "githubURL": "#",
+    "demoURL": "#"
+  },
+  {
     "title": "Kshk (E-commerce App)",
     "description": "A comprehensive e-commerce mobile application built with Flutter. Features product browsing, cart management, and secure checkout process.",
     "technologies": ["Flutter", "Mobile Development", "E-commerce"],
@@ -116,35 +146,5 @@
     "images": ["assets/images/projects/placeholder.jpg"],
     "githubURL": "https://github.com/Mohamed-Emad1/gemini-api-project",
     "demoURL": "https://www.youtube.com/watch?v=oT_zBG3CBhU&t=5s"
-  },
-  {
-    "title": "Osus Project",
-    "description": "A comprehensive Flutter application featuring product categories, dynamic order cards, user reviews, address management, and dynamic navigation.",
-    "technologies": [
-      "Flutter",
-      "Mobile Development",
-      "REST API",
-      "State Management"
-    ],
-    "category": "flutter",
-    "featured": true,
-    "year": "2025",
-    "status": "Completed",
-    "imageURL": "assets/images/projects/osus1.png",
-    "images": [
-      "assets/images/projects/osus1.png",
-      "assets/images/projects/osus2.png",
-      "assets/images/projects/osus3.png",
-      "assets/images/projects/osus4.png",
-      "assets/images/projects/osus5.png",
-      "assets/images/projects/sus6.png",
-      "assets/images/projects/osus7.png",
-      "assets/images/projects/osus8.png",
-      "assets/images/projects/osus9.png",
-      "assets/images/projects/osus10.png",
-      "assets/images/projects/osus11.png"
-    ],
-    "githubURL": "#",
-    "demoURL": "#"
   }
 ]
