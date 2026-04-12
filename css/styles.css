@@ -1523,6 +1523,12 @@ img {
   border: 1px solid rgba(0, 230, 118, 0.2);
 }
 
+.cert-badge.in-progress {
+  background: rgba(255, 193, 7, 0.1);
+  color: var(--accent-warm);
+  border: 1px solid rgba(255, 193, 7, 0.2);
+}
+
 /* ── Contact Section ── */
 .contact-section {
   padding: var(--sp-3xl) 0;
