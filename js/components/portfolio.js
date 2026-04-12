@@ -156,8 +156,15 @@ class PortfolioManager {
     }
 
     if (project.demoURL && project.demoURL !== "#") {
+      const isPlayStore = project.demoURL.includes("play.google.com");
+      const demoLabel =
+        project.demoLabel || (isPlayStore ? "Download App" : "Demo");
+      const demoIcon =
+        project.demoIcon ||
+        (isPlayStore ? "fab fa-google-play" : "fas fa-external-link-alt");
+
       links += `<a href="${project.demoURL}" target="_blank" class="btn btn-primary" rel="noopener">
-                        <i class="fas fa-external-link-alt"></i> Demo
+                        <i class="${demoIcon}"></i> ${demoLabel}
                       </a>`;
     }
 

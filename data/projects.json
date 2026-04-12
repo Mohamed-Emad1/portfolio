@@ -56,7 +56,8 @@
       "assets/images/projects/osus16.jpeg"
     ],
     "githubURL": "#",
-    "demoURL": "https://play.google.com/store/apps/details?id=com.crevel.eg.osus"
+    "demoURL": "https://play.google.com/store/apps/details?id=com.crevel.eg.osus",
+    "demoLabel": "Download App"
   },
   {
     "title": "Kshk (E-commerce App)",
