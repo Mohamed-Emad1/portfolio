@@ -3,25 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mohamed Emad - Flutter Developer | Portfolio</title>
+    <title>mohamed.emad.dart — Flutter Developer</title>
     <meta
       name="description"
-      content="Mohamed Emad - Expert Flutter Developer specializing in Clean Architecture, BLoC, and Mobile App Development"
+      content="Mohamed Emad — Flutter Developer building cross-platform mobile experiences with Clean Architecture, BLoC, MVVM, Firebase, and REST. Alexandria, Egypt."
     />
     <meta
       property="og:title"
-      content="Mohamed Emad - Flutter Developer Portfolio"
+      content="mohamed.emad.dart — Flutter Developer"
     />
     <meta
       property="og:description"
-      content="Explore my portfolio of Flutter, React, and Vue.js projects with clean architecture and modern development practices"
+      content="Cross-platform mobile apps with Clean Architecture, BLoC, MVVM, Firebase, and REST. Localized for Arabic & English."
     />
 
-    <!-- Fonts -->
+    <!-- Fonts: sans + mono for the code/dev aesthetic -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -38,29 +38,48 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
-  <body>
-    <!-- Navigation -->
+  <body data-theme="amber">
+    <!-- Navigation: dev-style nav with numbered slugs -->
     <nav class="navbar" id="navbar">
       <div class="nav-container">
-        <div class="nav-logo">
-          <span>Mohamed</span><span class="accent">Emad</span>
-        </div>
+        <a href="#home" class="nav-logo" aria-label="Home">
+          <span class="logo-mark">M</span>
+          <span class="logo-text">
+            <span class="logo-name">mohamed</span><span class="logo-dot">.</span><span class="logo-name">emad</span><span class="logo-dot">.</span><span class="logo-ext">dart</span>
+          </span>
+        </a>
+
         <ul class="nav-menu" id="nav-menu">
-          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
           <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#home" class="nav-link"><span class="nav-num">01</span> home<span class="nav-paren">()</span></a>
           </li>
           <li class="nav-item">
-            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#about" class="nav-link"><span class="nav-num">02</span> about<span class="nav-paren">()</span></a>
           </li>
           <li class="nav-item">
-            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link"><span class="nav-num">03</span> skills<span class="nav-paren">()</span></a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#portfolio" class="nav-link"><span class="nav-num">04</span> projects<span class="nav-paren">()</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link"><span class="nav-num">05</span> experience<span class="nav-paren">()</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><span class="nav-num">06</span> contact<span class="nav-paren">()</span></a>
           </li>
         </ul>
+
+        <div class="nav-right">
+          <div class="status-pill" aria-label="Availability status">
+            <span class="status-dot"></span>
+            <span class="status-text">
+              <strong>Available</strong>
+              <small>· UTC+3</small>
+            </span>
+          </div>
+        </div>
+
         <div
           class="nav-toggle"
           id="nav-toggle"
@@ -77,73 +96,71 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-      <div class="hero-background">
-        <div class="hero-overlay"></div>
-        <div class="floating-shapes">
-          <div class="shape shape-1"></div>
-          <div class="shape shape-2"></div>
-          <div class="shape shape-3"></div>
-          <div class="shape shape-4"></div>
-        </div>
-      </div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+
       <div class="hero-container">
         <div class="hero-content" data-aos="fade-up">
+          <div class="hero-location-pill">
+            <span class="flag" aria-hidden="true">🇪🇬</span>
+            Alexandria, Egypt <span class="sep">·</span> open to relocate
+          </div>
+
           <h1 class="hero-title">
-            Hi, I'm <span class="gradient-text">Mohamed Emad</span>
+            <span class="line">Building</span>
+            <span class="line accent">mobile experiences</span>
+            <span class="line">that ship<span class="caret" aria-hidden="true"></span></span>
           </h1>
-          <p class="hero-subtitle">Software Engineer — Flutter Developer</p>
-          <p class="hero-location">
-            <i class="fas fa-map-marker-alt"></i>
-            Alexandria, Egypt (Open to Relocate)
-          </p>
+
+          <div class="hero-tagline">
+            <span>Flutter Developer</span>
+            <span class="dot-sep">·</span>
+            <span>Software Engineer</span>
+            <span class="chip">Dart 3.5</span>
+          </div>
+
           <p class="hero-description">
-            Passionate Flutter Developer specializing in cross-platform mobile
-            apps with Clean Architecture, BLoC, MVVM, Firebase, and RESTful API
-            integration. Experienced in localization and scalable app design.
+            Cross-platform mobile apps with <strong>Clean Architecture</strong>,
+            BLoC, MVVM, Firebase, and REST. Localized for Arabic &amp; English.
+            1 app live on Google Play, several more in the pipeline.
           </p>
-
-          <div class="hero-image">
-            <img
-              src="assets/images/profile.jpeg"
-              alt="Mohamed Emad - Flutter Developer"
-              class="profile-img"
-            />
-          </div>
-
-          <div class="status-indicator">
-            <span class="status-dot"></span>
-            Available for hire
-          </div>
-
-          <div class="hero-stats">
-            <div class="stat-item">
-              <span class="stat-number">6</span>
-              <span class="stat-label">Major Projects</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">1</span>
-              <span class="stat-label">Years Experience</span>
-            </div>
-
-            <div class="stat-item">
-              <span class="stat-number">4</span>
-              <span class="stat-label">Certifications</span>
-            </div>
-          </div>
 
           <div class="hero-buttons">
             <a href="#portfolio" class="btn btn-primary">
-              <i class="fas fa-rocket"></i>
-              View My Work
+              <i class="fas fa-arrow-up-right-from-square"></i>
+              View my work
             </a>
             <a
               href="assets/resume.pdf"
-              class="btn btn-secondary"
+              class="btn btn-ghost"
               target="_blank"
+              rel="noopener"
             >
               <i class="fas fa-download"></i>
               Download CV
             </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">7<span class="plus">+</span></span>
+              <span class="stat-label">Shipped projects</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">1.5<span class="suffix">y</span></span>
+              <span class="stat-label">Flutter experience</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">4<span class="plus">+</span></span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Languages (AR · EN)</span>
+            </div>
           </div>
 
           <div class="social-links">
@@ -152,6 +169,7 @@
               target="_blank"
               class="social-link"
               aria-label="GitHub Profile"
+              rel="noopener"
             >
               <i class="fab fa-github"></i>
             </a>
@@ -160,6 +178,7 @@
               target="_blank"
               class="social-link"
               aria-label="LinkedIn Profile"
+              rel="noopener"
             >
               <i class="fab fa-linkedin"></i>
             </a>
@@ -173,96 +192,104 @@
           </div>
         </div>
       </div>
-      <div class="scroll-indicator">
+
+      <div class="scroll-indicator" aria-hidden="true">
         <div class="scroll-arrow"></div>
+        <span>scroll</span>
       </div>
     </section>
 
     <main>
-      <!-- About Section -->
+      <!-- About Section: "A Dart class, basically" + code block -->
       <section id="about" class="about-section">
         <div class="container">
-          <div class="section-header" data-aos="fade-up">
-            <span class="section-tag">Get To Know More</span>
-            <h2 class="section-title">About Me</h2>
+          <div class="section-eyebrow">02 / about()</div>
+
+          <div class="about-intro" data-aos="fade-up">
+            <h2 class="about-title">A Dart class, basically</h2>
+            <p class="about-lede">
+              Computer &amp; Communication Engineer turned Flutter specialist.
+              I optimize for code that someone else can read, ship, and
+              maintain.
+            </p>
           </div>
-          <div class="about-content">
-            <div class="about-text" data-aos="fade-right">
-              <div class="about-card">
-                <h3>Professional Summary</h3>
-                <p>
-                  I'm a Computer & Communication Engineering graduate from
-                  Alexandria University (July 2025) with expertise in Flutter
-                  development and cross-platform mobile applications. My
-                  specialty lies in implementing Clean Architecture, BLoC
-                  patterns, and MVVM with modern development practices.
-                </p>
-                <p>
-                  Throughout my journey, I've developed mobile applications with
-                  Firebase integration, RESTful API consumption, and
-                  comprehensive localization supporting Arabic and English
-                  languages. My experience spans from graduation projects
-                  involving ML integration to competition entries with Google
-                  Gemini API.
-                </p>
-                <div class="quick-facts">
-                  <div class="fact-item">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>Computer Engineering Graduate</span>
-                  </div>
-                  <div class="fact-item">
-                    <i class="fas fa-mobile-alt"></i>
-                    <span>Flutter Specialist</span>
-                  </div>
-                  <div class="fact-item">
-                    <i class="fas fa-globe"></i>
-                    <span>Multi-language Apps</span>
-                  </div>
-                  <div class="fact-item">
-                    <i class="fas fa-cloud"></i>
-                    <span>Firebase Expert</span>
-                  </div>
+
+          <div class="code-window" data-aos="fade-up">
+            <div class="code-window-bar">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="code-tabs">
+                <div class="code-tab active">
+                  <i class="fab fa-dartlang"></i>
+                  profile.dart
+                  <span class="tab-modified">•</span>
                 </div>
-                <div class="language-skills">
-                  <h4>Languages</h4>
-                  <div class="language-item">
-                    <span>Arabic</span>
-                    <span class="language-level">Native</span>
-                  </div>
-                  <div class="language-item">
-                    <span>English</span>
-                    <span class="language-level">Advanced</span>
-                  </div>
+                <div class="code-tab">
+                  <i class="fab fa-markdown"></i>
+                  readme.md
                 </div>
               </div>
+              <div class="code-meta">profile.dart · 142 lines</div>
             </div>
-            <div class="about-image" data-aos="fade-left">
-              <div class="image-wrapper">
-                <img
-                  src="assets/images/profile.jpeg"
-                  alt="Mohamed Emad working"
-                  class="about-img"
-                />
-                <div class="floating-icons">
-                  <div class="icon-item react">
-                    <i class="fab fa-react"></i>
-                  </div>
 
-                  <div class="icon-item firebase">
-                    <i class="fas fa-fire"></i>
-                  </div>
-                  <div class="icon-item flutter">
-                    <!-- <i class="fa-brands fa-flutter"></i> -->
-                    <img
-                      class="f-icon"
-                      src="assets/images/flutter.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="icon-item dart">
-                    <img class="f-icon" src="assets/images/dart.svg" alt="" />
-                  </div>
-                </div>
+            <pre class="code-body"><span class="ln"> 1</span><span class="kw">import</span> <span class="str">'package:flutter/material.dart'</span>;
+<span class="ln"> 2</span><span class="kw">import</span> <span class="str">'package:clean_arch/core.dart'</span>;
+<span class="ln"> 3</span>
+<span class="ln"> 4</span><span class="cm">/// Mohamed Emad — Flutter Developer based in Alexandria.</span>
+<span class="ln"> 5</span><span class="anno">@immutable</span>
+<span class="ln"> 6</span><span class="kw">final class</span> <span class="cls">Mohamed</span> <span class="kw">extends</span> <span class="cls">Engineer</span> {
+<span class="ln"> 7</span>  <span class="cls">Mohamed</span>()
+<span class="ln"> 8</span>      : <span class="kw">super</span>(
+<span class="ln"> 9</span>          name:           <span class="str">'Mohamed Emad'</span>,
+<span class="ln">10</span>          role:           <span class="str">'Flutter Developer'</span>,
+<span class="ln">11</span>          location:       <span class="str">'Alexandria, EG'</span>,
+<span class="ln">12</span>          languages:      <span class="kw">const</span> [<span class="str">'ar'</span>, <span class="str">'en'</span>],
+<span class="ln">13</span>          openToRelocate: <span class="bool">true</span>,
+<span class="ln">14</span>        );
+<span class="ln">15</span>
+<span class="ln">16</span>  <span class="anno">@override</span>
+<span class="ln">17</span>  <span class="cls">List</span>&lt;<span class="cls">String</span>&gt; <span class="kw">get</span> stack =&gt; [
+<span class="ln">18</span>        <span class="str">'flutter'</span>, <span class="str">'dart'</span>, <span class="str">'bloc'</span>, <span class="str">'mvvm'</span>,
+<span class="ln">19</span>        <span class="str">'firebase'</span>, <span class="str">'rest'</span>, <span class="str">'clean architecture'</span>,
+<span class="ln">20</span>      ];
+<span class="ln">21</span>
+<span class="ln">22</span>  <span class="anno">@override</span>
+<span class="ln">23</span>  <span class="cls">Future</span>&lt;<span class="cls">void</span>&gt; letsBuild() <span class="kw">async</span> =&gt;
+<span class="ln">24</span>      <span class="fn">ship</span>(<span class="str">'mobile experiences that feel native'</span>);
+<span class="ln">25</span>}
+</pre>
+          </div>
+
+          <div class="about-facts" data-aos="fade-up">
+            <div class="fact-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>BEng — Computer &amp; Communication</strong>
+                <span>Alexandria University, 2025</span>
+              </div>
+            </div>
+            <div class="fact-item">
+              <i class="fas fa-mobile-screen-button"></i>
+              <div>
+                <strong>Flutter Specialist</strong>
+                <span>Cross-platform · Native feel</span>
+              </div>
+            </div>
+            <div class="fact-item">
+              <i class="fas fa-globe"></i>
+              <div>
+                <strong>Localization</strong>
+                <span>Arabic &amp; English, RTL-ready</span>
+              </div>
+            </div>
+            <div class="fact-item">
+              <i class="fas fa-fire"></i>
+              <div>
+                <strong>Firebase &amp; REST</strong>
+                <span>Auth · Firestore · Storage</span>
               </div>
             </div>
           </div>
@@ -272,20 +299,24 @@
       <!-- Skills Section -->
       <section id="skills" class="skills-section">
         <div class="container">
+          <div class="section-eyebrow">03 / skills()</div>
           <div class="section-header" data-aos="fade-up">
-            <span class="section-tag">My Expertise</span>
-            <h2 class="section-title">Skills & Technologies</h2>
+            <h2 class="section-title">Stack &amp; tooling</h2>
+            <p class="section-description">
+              The tools I reach for when shipping production Flutter apps.
+            </p>
           </div>
+
           <div class="skills-grid">
             <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
               <div class="category-header">
-                <i class="fas fa-mobile-alt"></i>
-                <h3>Mobile Development</h3>
+                <i class="fas fa-mobile-screen-button"></i>
+                <h3>Mobile</h3>
               </div>
               <div class="skills-list">
                 <div class="skill-item">
                   <div class="skill-info">
-                    <span class="skill-name">Flutter & Dart</span>
+                    <span class="skill-name">Flutter &amp; Dart</span>
                     <span class="skill-level">90%</span>
                   </div>
                   <div class="skill-bar">
@@ -294,7 +325,16 @@
                 </div>
                 <div class="skill-item">
                   <div class="skill-info">
-                    <span class="skill-name">BLoC & Cubit</span>
+                    <span class="skill-name">BLoC &amp; Cubit</span>
+                    <span class="skill-level">88%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Clean Architecture</span>
                     <span class="skill-level">85%</span>
                   </div>
                   <div class="skill-bar">
@@ -303,7 +343,7 @@
                 </div>
                 <div class="skill-item">
                   <div class="skill-info">
-                    <span class="skill-name">Clean Architecture</span>
+                    <span class="skill-name">MVVM</span>
                     <span class="skill-level">80%</span>
                   </div>
                   <div class="skill-bar">
@@ -315,35 +355,44 @@
 
             <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
               <div class="category-header">
-                <i class="fas fa-globe"></i>
-                <h3>Web Development</h3>
+                <i class="fas fa-server"></i>
+                <h3>Backend &amp; Cloud</h3>
               </div>
               <div class="skills-list">
                 <div class="skill-item">
                   <div class="skill-info">
-                    <span class="skill-name">React</span>
-                    <span class="skill-level">60%</span>
-                  </div>
-                  <div class="skill-bar">
-                    <div class="skill-progress" style="width: 60%"></div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <div class="skill-info">
-                    <span class="skill-name">Vue.js</span>
-                    <span class="skill-level">50%</span>
-                  </div>
-                  <div class="skill-bar">
-                    <div class="skill-progress" style="width: 50%"></div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <div class="skill-info">
-                    <span class="skill-name">JavaScript/HTML/CSS</span>
+                    <span class="skill-name">Firebase (Auth · Firestore · Storage)</span>
                     <span class="skill-level">80%</span>
                   </div>
                   <div class="skill-bar">
                     <div class="skill-progress" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">RESTful APIs (Dio, http)</span>
+                    <span class="skill-level">85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Hive / SharedPreferences</span>
+                    <span class="skill-level">80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Git &amp; GitHub</span>
+                    <span class="skill-level">88%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%"></div>
                   </div>
                 </div>
               </div>
@@ -351,13 +400,13 @@
 
             <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
               <div class="category-header">
-                <i class="fas fa-database"></i>
-                <h3>Backend & Tools</h3>
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web &amp; Other</h3>
               </div>
               <div class="skills-list">
                 <div class="skill-item">
                   <div class="skill-info">
-                    <span class="skill-name">Firebase</span>
+                    <span class="skill-name">React</span>
                     <span class="skill-level">65%</span>
                   </div>
                   <div class="skill-bar">
@@ -366,20 +415,29 @@
                 </div>
                 <div class="skill-item">
                   <div class="skill-info">
-                    <span class="skill-name">RESTful APIs</span>
-                    <span class="skill-level">80%</span>
+                    <span class="skill-name">Vue.js</span>
+                    <span class="skill-level">55%</span>
                   </div>
                   <div class="skill-bar">
-                    <div class="skill-progress" style="width: 80%"></div>
+                    <div class="skill-progress" style="width: 55%"></div>
                   </div>
                 </div>
                 <div class="skill-item">
                   <div class="skill-info">
-                    <span class="skill-name">Git & GitHub</span>
+                    <span class="skill-name">HTML / CSS / JS</span>
                     <span class="skill-level">85%</span>
                   </div>
                   <div class="skill-bar">
                     <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Oracle HCM (Redwood)</span>
+                    <span class="skill-level">60%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 60%"></div>
                   </div>
                 </div>
               </div>
@@ -391,22 +449,26 @@
       <!-- Portfolio Section -->
       <section id="portfolio" class="portfolio-section">
         <div class="container">
+          <div class="section-eyebrow">04 / projects()</div>
           <div class="section-header" data-aos="fade-up">
-            <span class="section-tag">My Work</span>
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title">Shipped &amp; in flight</h2>
+            <p class="section-description">
+              Selected work — production apps, graduation projects, and
+              competition entries.
+            </p>
           </div>
+
           <div class="portfolio-filter" data-aos="fade-up">
             <button class="filter-btn active" data-filter="all">
-              All Projects
+              All <span class="count">·</span>
             </button>
             <button class="filter-btn" data-filter="flutter">Flutter</button>
             <button class="filter-btn" data-filter="web">Web</button>
-            <button class="filter-btn" data-filter="fullstack">
-              Full Stack
-            </button>
+            <button class="filter-btn" data-filter="fullstack">Full Stack</button>
           </div>
+
           <div class="projects-grid" id="portfolio-list">
-            <!-- Projects will be loaded dynamically -->
+            <!-- Projects loaded dynamically -->
           </div>
         </div>
       </section>
@@ -414,178 +476,181 @@
       <!-- Experience Section -->
       <section id="experience" class="experience-section">
         <div class="container">
+          <div class="section-eyebrow">05 / experience()</div>
           <div class="section-header" data-aos="fade-up">
-            <span class="section-tag">My Journey</span>
-            <h2 class="section-title">Education & Experience</h2>
+            <h2 class="section-title">Education &amp; experience</h2>
+            <p class="section-description">
+              Where I've shipped, studied, and skilled up.
+            </p>
           </div>
+
           <div class="experience-content">
             <div class="timeline">
-              <div
-                class="timeline-item"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="timeline-date">Sep 2025 - Present</div>
+              <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-date">Sep 2025 — Present</div>
                 <div class="timeline-content">
                   <div class="timeline-icon">
                     <i class="fas fa-briefcase"></i>
                   </div>
                   <h3>Oracle ERP Consultant</h3>
-                  <h4>Ejada Systems</h4>
-                  <h5>Alexandria, Egypt</h5>
+                  <h4>Ejada Systems · Alexandria, Egypt</h4>
                   <p>
-                    Worked on the Enjaz project as part of the Technical Team,
-                    contributing to the Workforce Structure module within Oracle
-                    HCM using Redwood.
+                    Worked on the <strong>Enjaz</strong> project (Technical
+                    Team) — contributing to the Workforce Structure module
+                    within Oracle HCM using Redwood.
                   </p>
                   <p>
-                    Currently working on the RRM project as part of the
-                    Technical Team, focusing on the DOR (Document of Record)
-                    module within Oracle HCM using Redwood.
+                    Currently on the <strong>RRM</strong> project — focused on
+                    the Document of Record (DOR) module within Oracle HCM
+                    using Redwood.
                   </p>
                   <div class="timeline-achievements">
                     <span class="achievement">Oracle ERP</span>
                     <span class="achievement">Oracle HCM</span>
                     <span class="achievement">Redwood</span>
-                    <span class="achievement">Technical Team</span>
                   </div>
                 </div>
               </div>
-              <div
-                class="timeline-item"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="timeline-date">2026 - present</div>
+
+              <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
+                <div class="timeline-date">2025 — Present</div>
                 <div class="timeline-content">
                   <div class="timeline-icon">
-                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fas fa-university"></i>
                   </div>
-                  <h3>Flutter Developer</h3>
-                  <h4>Osus App | Flutter, Dart Remote</h4>
+                  <h3>Flutter Developer — Diwan (HR App)</h3>
+                  <h4>Alexandria University · Internal product</h4>
                   <p>
-                    Developed and contributed to the Osus mobile application,
-                    available on Google Play Store.
+                    Flutter developer on <strong>Diwan</strong>, Alexandria
+                    University's internal HR mobile app. Owned the
+                    <strong>Profile Management</strong> module (employee data,
+                    manager flows for penalties, incentive bonuses, and annual
+                    reports, plus employee info editing).
                   </p>
                   <p>
-                    Built responsive cross-platform UI components and integrated
-                    backend services using Flutter and Dart.
+                    Built the full <strong>Leave Module</strong> — every leave
+                    type with its approval workflow — and the
+                    <strong>Employee Attendance Analysis</strong> screens with
+                    charts and breakdowns. Implemented role-based permissions
+                    (HR Staff → Information Center approval) and full Arabic /
+                    English localization.
                   </p>
                   <div class="timeline-achievements">
-                    <span class="achievement">Google Play Store</span>
-                    <span class="achievement">UI/UX Integration</span>
-                    <span class="achievement">Backend Services</span>
-                    <span class="achievement">Flutter & Dart</span>
+                    <span class="achievement">Profile Management</span>
+                    <span class="achievement">Leave Workflows</span>
+                    <span class="achievement">Attendance Analysis</span>
+                    <span class="achievement">Role-Based Access</span>
+                    <span class="achievement">AR / EN Localization</span>
                   </div>
                 </div>
               </div>
-              <div
-                class="timeline-item"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="timeline-date">2020 - 2025</div>
+
+              <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-date">2026 — Present</div>
+                <div class="timeline-content">
+                  <div class="timeline-icon">
+                    <i class="fas fa-mobile-screen-button"></i>
+                  </div>
+                  <h3>Flutter Developer</h3>
+                  <h4>Osus App · Flutter · Remote</h4>
+                  <p>
+                    Built and shipped features for the Osus mobile app on
+                    Google Play. Responsive cross-platform UI, dynamic order
+                    cards, address management, and REST integrations.
+                  </p>
+                  <div class="timeline-achievements">
+                    <span class="achievement">Google Play</span>
+                    <span class="achievement">UI / UX</span>
+                    <span class="achievement">REST API</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline-item" data-aos="fade-up" data-aos-delay="250">
+                <div class="timeline-date">2020 — 2025</div>
                 <div class="timeline-content">
                   <div class="timeline-icon">
                     <i class="fas fa-graduation-cap"></i>
                   </div>
-                  <h3>Bachelor of Engineering</h3>
-                  <h4>Alexandria University</h4>
-                  <h5>Computer and Communication Engineering</h5>
+                  <h3>BEng — Computer &amp; Communication</h3>
+                  <h4>Alexandria University · Alexandria, Egypt</h4>
                   <p>
-                    Alexandria, Egypt – Relevant Coursework: Software
-                    Engineering, Database Systems, Data Structures and
-                    Algorithms
+                    Coursework: Software Engineering, Database Systems, Data
+                    Structures &amp; Algorithms. Graduated July 2025.
                   </p>
                   <div class="timeline-achievements">
-                    <span class="achievement">Graduated July 2025</span>
-                    <span class="achievement">Software Engineering Focus</span>
+                    <span class="achievement">Graduated 2025</span>
+                    <span class="achievement">SWE Focus</span>
                   </div>
                 </div>
               </div>
-              <div
-                class="timeline-item"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="timeline-date">2023 - Present</div>
+
+              <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="timeline-date">2023 — Present</div>
                 <div class="timeline-content">
                   <div class="timeline-icon">
-                    <i class="fas fa-laptop-code"></i>
+                    <i class="fas fa-code"></i>
                   </div>
-                  <h3>Software Engineer — Flutter Developer</h3>
-                  <h4>Personal Projects</h4>
+                  <h3>Personal Projects</h3>
+                  <h4>Flutter · React · Self-directed</h4>
                   <p>
-                    Developed various cross-platform mobile apps using Flutter
-                    and responsive web apps with React.
+                    Cross-platform apps with Clean Architecture, BLoC, Firebase,
+                    and REST. From e-commerce to Islamic apps to AI chatbots.
                   </p>
                   <div class="timeline-achievements">
-                    <span class="achievement">4+ Applications Built</span>
-                    <span class="achievement"
-                      >Clean Architecture Implementation</span
-                    >
-                    <span class="achievement">Firebase Integration</span>
-                    <span class="achievement">Multi-language Support</span>
+                    <span class="achievement">6+ Apps</span>
+                    <span class="achievement">Clean Architecture</span>
+                    <span class="achievement">Firebase</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="certifications">
-              <h3>Certifications & Professional Development</h3>
+            <aside class="certifications">
+              <h3>Certifications</h3>
               <div class="cert-grid">
                 <div class="cert-item" data-aos="fade-up" data-aos-delay="100">
-                  <div class="cert-icon">
-                    <i class="fab fa-flutter"></i>
-                  </div>
+                  <div class="cert-icon"><i class="fab fa-dartlang"></i></div>
                   <div class="cert-content">
-                    <h4>Flutter - The Complete Guide</h4>
-                    <p>Udemy • 2022</p>
+                    <h4>Flutter — The Complete Guide</h4>
+                    <p>Udemy · 2022</p>
                     <span class="cert-badge">Completed</span>
                   </div>
                 </div>
                 <div class="cert-item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="cert-icon">
-                    <i class="fas fa-layer-group"></i>
-                  </div>
+                  <div class="cert-icon"><i class="fas fa-layer-group"></i></div>
                   <div class="cert-content">
                     <h4>Flutter Clean Architecture</h4>
-                    <p>Udemy • 2024</p>
+                    <p>Udemy · 2024</p>
                     <span class="cert-badge">Completed</span>
                   </div>
                 </div>
                 <div class="cert-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="cert-icon">
-                    <i class="fas fa-cubes"></i>
-                  </div>
+                  <div class="cert-icon"><i class="fas fa-cubes"></i></div>
                   <div class="cert-content">
-                    <h4>Flutter BLoC and MVVM</h4>
-                    <p>Udemy • 2024</p>
+                    <h4>Flutter BLoC &amp; MVVM</h4>
+                    <p>Udemy · 2024</p>
                     <span class="cert-badge">Completed</span>
                   </div>
                 </div>
                 <div class="cert-item" data-aos="fade-up" data-aos-delay="400">
-                  <div class="cert-icon">
-                    <i class="fas fa-fire"></i>
-                  </div>
+                  <div class="cert-icon"><i class="fas fa-fire"></i></div>
                   <div class="cert-content">
-                    <h4>Firebase and E-commerce Course</h4>
-                    <p>Specialized Training • 2024-2025</p>
+                    <h4>Firebase &amp; E-commerce</h4>
+                    <p>Specialized · 2024-2025</p>
                     <span class="cert-badge">Completed</span>
                   </div>
                 </div>
                 <div class="cert-item" data-aos="fade-up" data-aos-delay="500">
-                  <div class="cert-icon">
-                    <i class="fas fa-map-marked-alt"></i>
-                  </div>
+                  <div class="cert-icon"><i class="fas fa-map-location-dot"></i></div>
                   <div class="cert-content">
-                    <h4>Flutter Google Maps Course</h4>
-                    <p>Specialized Training • Feb 2026 – Present</p>
+                    <h4>Flutter Google Maps</h4>
+                    <p>Specialized · Feb 2026 — now</p>
                     <span class="cert-badge in-progress">In Progress</span>
                   </div>
                 </div>
               </div>
-            </div>
+            </aside>
           </div>
         </div>
       </section>
@@ -593,30 +658,19 @@
       <!-- Contact Section -->
       <section id="contact" class="contact-section">
         <div class="container">
+          <div class="section-eyebrow">06 / contact()</div>
           <div class="section-header" data-aos="fade-up">
-            <span class="section-tag">Get In Touch</span>
-            <h2 class="section-title">Let's Work Together</h2>
+            <h2 class="section-title">Let's build something</h2>
             <p class="section-description">
-              Feel free to reach out for collaborations, inquiries, or just a
-              friendly chat about mobile development!
+              Open to full-time roles, contracts, and collaborations. Happy to
+              ship in Arabic or English.
             </p>
           </div>
+
           <div class="contact-content">
             <div class="contact-info" data-aos="fade-right">
               <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
-                <div class="contact-details">
-                  <h4>Phone</h4>
-                  <p>+20 01032746151</p>
-                  <a href="tel:+2001032746151">Call Me</a>
-                </div>
-              </div>
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                 <div class="contact-details">
                   <h4>Email</h4>
                   <p>mohamed.emad45621@gmail.com</p>
@@ -624,88 +678,101 @@
                     href="https://mail.google.com/mail/?view=cm&fs=1&to=mohamed.emad45621@gmail.com"
                     target="_blank"
                     rel="noopener"
-                  >
-                    Email Me
-                  </a>
+                  >Email me →</a>
                 </div>
               </div>
               <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
                 <div class="contact-details">
-                  <h4>Location</h4>
-                  <p>Alexandria, Egypt</p>
-                  <span class="availability">(Open to Relocate)</span>
+                  <h4>Phone</h4>
+                  <p>+20 01032746151</p>
+                  <a href="tel:+2001032746151">Call →</a>
                 </div>
               </div>
               <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fab fa-linkedin"></i>
-                </div>
+                <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
                 <div class="contact-details">
                   <h4>LinkedIn</h4>
                   <p>mohamed-emad-b048b4194</p>
                   <a
                     target="_blank"
                     href="https://linkedin.com/in/mohamed-emad-b048b4194"
-                    >Connect</a
-                  >
+                    rel="noopener"
+                  >Connect →</a>
                 </div>
               </div>
               <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fab fa-github"></i>
-                </div>
+                <div class="contact-icon"><i class="fab fa-github"></i></div>
                 <div class="contact-details">
                   <h4>GitHub</h4>
                   <p>Mohamed-Emad1</p>
-                  <a target="_blank" href="https://github.com/Mohamed-Emad1"
-                    >View Profile</a
-                  >
+                  <a
+                    target="_blank"
+                    href="https://github.com/Mohamed-Emad1"
+                    rel="noopener"
+                  >View profile →</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>Alexandria, Egypt</p>
+                  <span class="availability">Open to relocate</span>
                 </div>
               </div>
             </div>
+
             <div class="contact-form" data-aos="fade-left">
+              <div class="contact-form-header">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="contact-form-title">send_message.dart</span>
+              </div>
               <form id="contact-form">
                 <div class="form-group">
+                  <label for="name"><span class="kw">String</span> name</label>
                   <input
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="Your Name"
+                    placeholder="'Your name'"
                     required
                   />
                 </div>
                 <div class="form-group">
+                  <label for="email"><span class="kw">String</span> email</label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="'you@domain.com'"
                     required
                   />
                 </div>
                 <div class="form-group">
+                  <label for="subject"><span class="kw">String</span> subject</label>
                   <input
                     type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Subject"
+                    placeholder="'Project / role / question'"
                   />
                 </div>
                 <div class="form-group">
+                  <label for="message"><span class="kw">String</span> message</label>
                   <textarea
                     id="message"
                     name="message"
-                    placeholder="Your Message"
-                    rows="6"
+                    placeholder="'Tell me about it…'"
+                    rows="5"
                     required
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-primary btn-block">
                   <i class="fas fa-paper-plane"></i>
-                  Send Message
+                  send()
                 </button>
               </form>
             </div>
@@ -714,18 +781,77 @@
       </section>
     </main>
 
+    <!-- Tweaks floating panel — theme & density customizer -->
+    <aside class="tweaks-panel" id="tweaks-panel" aria-label="Theme tweaks">
+      <button
+        class="tweaks-toggle"
+        id="tweaks-toggle"
+        aria-label="Open tweaks panel"
+        aria-expanded="false"
+      >
+        <i class="fas fa-sliders"></i>
+      </button>
+      <div class="tweaks-body">
+        <div class="tweaks-header">
+          <span class="tweaks-title">Tweaks</span>
+          <button class="tweaks-close" id="tweaks-close" aria-label="Close tweaks">
+            <i class="fas fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="tweaks-section">
+          <span class="tweaks-label">Theme</span>
+          <div class="theme-swatches" role="radiogroup" aria-label="Theme">
+            <button class="swatch swatch-cyan" data-theme="cyan" role="radio" aria-label="Cyan">
+              <span class="check"><i class="fas fa-check"></i></span>
+            </button>
+            <button class="swatch swatch-amber active" data-theme="amber" role="radio" aria-checked="true" aria-label="Amber">
+              <span class="check"><i class="fas fa-check"></i></span>
+            </button>
+            <button class="swatch swatch-violet" data-theme="violet" role="radio" aria-label="Violet">
+              <span class="check"><i class="fas fa-check"></i></span>
+            </button>
+            <button class="swatch swatch-mint" data-theme="mint" role="radio" aria-label="Mint">
+              <span class="check"><i class="fas fa-check"></i></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="tweaks-section">
+          <span class="tweaks-label">Density</span>
+          <div class="seg-control" role="radiogroup" aria-label="Density">
+            <button class="seg" data-density="comfortable">Comfortable</button>
+            <button class="seg active" data-density="dense">Dense</button>
+          </div>
+        </div>
+
+        <div class="tweaks-section">
+          <span class="tweaks-label">Project frames</span>
+          <div class="seg-control" role="radiogroup" aria-label="Frames">
+            <button class="seg active" data-frame="device">Device</button>
+            <button class="seg" data-frame="minimal">Minimal</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
           <div class="footer-text">
-            <p>&copy; 2025 Mohamed Emad. All rights reserved.</p>
-            <p>Built with ❤️ using modern web technologies</p>
+            <div class="footer-logo">
+              <span class="logo-mark">M</span>
+              <span class="logo-text">mohamed.emad.dart</span>
+            </div>
+            <p>&copy; 2026 Mohamed Emad — built with Flutter energy on the web.</p>
           </div>
           <div class="footer-social">
             <a
               href="https://github.com/Mohamed-Emad1"
               target="_blank"
               class="social-link"
+              rel="noopener"
+              aria-label="GitHub"
             >
               <i class="fab fa-github"></i>
             </a>
@@ -733,16 +859,22 @@
               href="https://linkedin.com/in/mohamed-emad-b048b4194/"
               target="_blank"
               class="social-link"
+              rel="noopener"
+              aria-label="LinkedIn"
             >
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="mailto:mohamed.emad45621@gmail.com" class="social-link">
+            <a
+              href="mailto:mohamed.emad45621@gmail.com"
+              class="social-link"
+              aria-label="Email"
+            >
               <i class="fas fa-envelope"></i>
             </a>
           </div>
         </div>
       </div>
-      <div class="back-to-top" id="back-to-top">
+      <div class="back-to-top" id="back-to-top" aria-label="Back to top">
         <i class="fas fa-arrow-up"></i>
       </div>
     </footer>
@@ -751,8 +883,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({
-        duration: 1000,
+        duration: 800,
         once: true,
+        offset: 50,
       });
     </script>
 
@@ -760,5 +893,6 @@
     <script src="js/main.js"></script>
     <script src="js/components/portfolio.js"></script>
     <script src="js/components/contact.js"></script>
+    <script src="js/components/tweaks.js"></script>
   </body>
 </html>

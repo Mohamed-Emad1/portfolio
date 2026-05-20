@@ -1,5 +1,45 @@
 [
   {
+    "title": "Diwan — Alexandria University HR App",
+    "description": "Flutter developer on the Diwan internal HR mobile app for Alexandria University. Owned the Profile Management module (employee data, manager workflows for penalties, incentive bonuses, and annual reports), implemented the full Leave Module (all leave types with approval workflows), and built the Employee Attendance Analysis screens with charts and breakdowns. Implemented role-based permissions (HR staff vs. Information Center approvers), Arabic/English localization, RESTful API integration, and Clean Architecture with BLoC state management.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Clean Architecture",
+      "REST API",
+      "Localization (AR/EN)",
+      "Role-Based Access",
+      "Workflow Engine"
+    ],
+    "category": "flutter",
+    "categories": ["flutter"],
+    "featured": true,
+    "year": "2025-2026",
+    "status": "In Production",
+    "imageURL": "assets/images/hr/Screenshot_1779309449.png",
+    "images": [
+      "assets/images/hr/Screenshot_1779309449.png",
+      "assets/images/hr/Screenshot_1779309476.png",
+      "assets/images/hr/Screenshot_1779309481.png",
+      "assets/images/hr/Screenshot_1779309491.png",
+      "assets/images/hr/Screenshot_1779309494.png",
+      "assets/images/hr/Screenshot_1779309561.png",
+      "assets/images/hr/Screenshot_1779309749.png",
+      "assets/images/hr/Screenshot_1779309762.png",
+      "assets/images/hr/Screenshot_1779309766.png",
+      "assets/images/hr/Screenshot_1779309769.png",
+      "assets/images/hr/Screenshot_1779309773.png",
+      "assets/images/hr/Screenshot_1779309778.png",
+      "assets/images/hr/Screenshot_1779309781.png",
+      "assets/images/hr/Screenshot_1779309788.png",
+      "assets/images/hr/Screenshot_1779309792.png"
+    ],
+    "githubURL": "#",
+    "demoURL": "#",
+    "demoLabel": "Internal App"
+  },
+  {
     "title": "Deepfake Audio Detection System",
     "description": "Graduation Project - Built Flutter mobile app and React web app for deepfake audio detection using Clean Architecture and Dependency Injection. Implemented speech-to-speech functionality with file upload/record and integrated ML models via REST APIs.",
     "technologies": [
