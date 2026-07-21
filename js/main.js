@@ -12,6 +12,37 @@ class PortfolioApp {
     this.setupNavigation();
     this.setupScrollEffects();
     this.setupSmoothScrolling();
+    this.setupCodeTabs();
+  }
+
+  /* ── About code-window tabs (profile.dart / readme.md) ── */
+  setupCodeTabs() {
+    const tabs = document.querySelectorAll(".code-tab");
+    const meta = document.getElementById("code-meta");
+    const panes = {
+      dart: document.getElementById("code-body-dart"),
+      readme: document.getElementById("code-body-readme"),
+    };
+    if (!tabs.length || !meta || !panes.dart || !panes.readme) return;
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const target = tab.dataset.tab;
+        if (tab.classList.contains("active")) return;
+
+        tabs.forEach((t) => {
+          t.classList.toggle("active", t === tab);
+          t.setAttribute("aria-selected", t === tab ? "true" : "false");
+        });
+
+        Object.entries(panes).forEach(([key, pane]) => {
+          pane.hidden = key !== target;
+          if (key === target) pane.scrollTop = 0;
+        });
+
+        meta.textContent = tab.dataset.meta || "";
+      });
+    });
   }
 
   /* ── Navigation ── */

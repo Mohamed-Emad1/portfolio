@@ -142,6 +142,9 @@
 
 /* ── Small mobile (≤ 480px) ── */
 @media (max-width: 480px) {
+  .code-body { font-size: 0.68rem; padding: var(--sp-sm); }
+  .code-body .ln { width: 1.6em; margin-right: 0.6em; }
+
   .hero-title { font-size: 2.4rem; }
   .hero-location-pill { font-size: 0.72rem; padding: 6px 12px; }
 

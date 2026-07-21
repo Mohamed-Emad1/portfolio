@@ -135,6 +135,8 @@ body[data-density="comfortable"] .contact-item {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -786,6 +788,12 @@ section { position: relative; }
   border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.2s var(--ease);
+  appearance: none;
+  outline-offset: 2px;
+}
+
+.code-tab:hover {
+  color: var(--text-secondary);
 }
 
 .code-tab.active {
@@ -796,6 +804,44 @@ section { position: relative; }
 
 .code-tab .tab-modified {
   color: var(--primary);
+}
+
+/* Markdown highlighting — readme.md tab */
+.code-body .md-h1 {
+  color: var(--c-cls);
+  font-weight: 700;
+  font-size: 1.15em;
+}
+
+.code-body .md-h2 {
+  color: var(--c-kw);
+  font-weight: 700;
+}
+
+.code-body .md-dim {
+  color: var(--text-faint);
+}
+
+.code-body .md-bold {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.code-body .md-code {
+  color: var(--c-str);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.code-body .md-bullet {
+  color: var(--c-fn);
+  font-weight: 700;
+}
+
+.code-body .md-quote {
+  color: var(--c-cm);
+  font-style: italic;
 }
 
 .code-meta {
@@ -812,6 +858,8 @@ section { position: relative; }
   line-height: 1.7;
   color: var(--text-primary);
   overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
   white-space: pre;
   background:
     linear-gradient(to right, rgba(255, 255, 255, 0.02), transparent 30%),
@@ -1612,6 +1660,7 @@ section { position: relative; }
   flex-direction: column;
   align-items: flex-end;
   gap: 12px;
+  pointer-events: none;
 }
 
 .tweaks-toggle {
@@ -1628,6 +1677,7 @@ section { position: relative; }
   font-size: 1rem;
   transition: all 0.2s var(--ease);
   box-shadow: var(--shadow-md);
+  pointer-events: auto;
 }
 
 .tweaks-toggle:hover {
