@@ -108,6 +108,9 @@
   .code-body {
     font-size: 0.75rem;
     padding: var(--sp-md);
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: hidden;
   }
   .code-body .ln { width: 2em; margin-right: 0.8em; }
   .code-tab { font-size: 0.72rem; padding: 5px 10px; }
